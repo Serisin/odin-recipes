@@ -1,0 +1,86 @@
+/* === GLOBAL ELEMENTS === */
+
+figure {
+  text-align: center;
+  margin: 20px;
+}
+figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 6px;
+  font-style: italic;
+}
+figcaption a {
+  text-decoration: underline;
+}
+
+/* === COMPONENTS === */
+
+.recipe-button {
+  display: inline-block;
+  background-color: rgb(148, 127, 255);
+  color: wheat;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+.recipe-button:hover {
+  background-color: blue;
+}
+.button {
+  display: block;
+  background-color: rgb(148, 127, 255);
+  color: wheat;
+  text-decoration: underline;
+  padding: 10px 20px;
+  width: 50px;
+  margin: 0 auto;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+.button:hover {
+  background-color: blue;
+}
+
+/* === PAGE SPECIFIC STYLES === */
+
+.homepage .main-heading {
+  text-align: center;
+  color: rgb(226, 43, 43);
+  font-family: Verdana, sans-serif;
+}
+.homepage ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.recipe .main-heading {
+  text-align: center;
+  color: darkred;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-heading {
+  text-align: center;
+  color: darkslateblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Ingredients {
+  text-align: left;
+  color: lightcoral;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+
+.Steps {
+  text-align: left;
+  color: lightcoral;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
